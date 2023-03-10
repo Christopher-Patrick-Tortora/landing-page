@@ -15,20 +15,4 @@ body {
   background-color: rgb(0, 56, 132);
 }
 
-header {
 
-justify-content: space-between;
-align-items: center;
-padding: 8px 128px ;
-}
-
-.links {
-  list-style: none;
-  padding: 0px;
-  gap: 16px;
-}
-
-.link {
-  color: white;
-  text-decoration: none;
-}
