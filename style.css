@@ -45,15 +45,10 @@ section {
   justify-content: center;
 }
 
-.about__info > button {
+button {
   width: 128px;
   height: 32px;
 }
-
-
-
-
-
 
 .about__image > p > a {
   color: white;
@@ -98,7 +93,31 @@ section {
   background-color: #e9ecef;
 }
 
+.sign-up {
+  background-color: rgb(255, 102, 0);
+  margin: 64px 20%;
+  padding: 32px 124px;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 2px white;
+  border-radius: 8px;
+  color: white;
+  font-size: 1vw;
+}
 
+.sign-up > * {
+  flex: 1;
+}
+.sign-up__button {
+  background-color: rgb(255, 102, 0);
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.sign-up__button:hover {
+  transition: 100ms;
+  background-color: white
+}
 
 .flex {
   display: flex;
