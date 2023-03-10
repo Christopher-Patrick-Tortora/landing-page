@@ -64,6 +64,38 @@ section {
   
 }
 
+.attractions {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.attractions > h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 32px 0px;
+  border-bottom: 1px solid lightgray;
+
+}
+
+.attractions__container {
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.attractions > p {
+  display: flex;
+  justify-content: end;
+}
+
+.attraction > img {
+  width: 345px;
+  height: auto;
+}
+
+
+
 .flex {
   display: flex;
 }
