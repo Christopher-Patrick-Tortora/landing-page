@@ -2,6 +2,68 @@ body {
   margin: 0;
 }
 
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20%;
+}
+
+.links {
+  list-style: none;
+  padding: 0px;
+  gap: 16px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  padding: 0px 20%;
+}
+
+.about {
+  padding: 128px 20%;
+  justify-content: center;
+  color: white;
+  gap: 128px;
+ 
+}
+
+@media (max-width: 1100px ) {
+  .about {
+    flex-direction: column;
+  }
+}
+
+.about > * {
+  flex: 1 1 auto;
+}
+
+.about__info {
+  justify-content: center;
+}
+
+.about__info > button {
+  width: 128px;
+  height: 32px;
+}
+
+
+
+
+.about__image > p {
+  gap: 8px;
+  justify-content: end;
+}
+
+.about__image > p > a {
+  color: white;
+  text-decoration: none;
+  
+}
+
 .flex {
   display: flex;
 }
@@ -14,5 +76,6 @@ body {
 .background-blue {
   background-color: rgb(0, 56, 132);
 }
+
 
 
