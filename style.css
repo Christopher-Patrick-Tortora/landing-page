@@ -53,10 +53,7 @@ section {
 
 
 
-.about__image > p {
-  gap: 8px;
-  justify-content: end;
-}
+
 
 .about__image > p > a {
   color: white;
@@ -94,6 +91,13 @@ section {
   height: auto;
 }
 
+.quote {
+  font-size: 1vw;
+  margin: 32px 20%;
+  padding: 64px 32px;
+  background-color: #e9ecef;
+}
+
 
 
 .flex {
@@ -103,6 +107,12 @@ section {
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.text-end{
+  display: flex;
+  justify-content: end;
+  gap: 8px;
 }
 
 .background-blue {
