@@ -48,6 +48,20 @@ section {
   
 }
 
+.about__info > h1 {
+  margin-bottom: 0px;
+}
+
+
+h1 {
+  font-size: 46px;
+  font-weight: bolder;
+}
+
+.about__info > p {
+  font-size: 18PX;
+} 
+
 
 
 
@@ -90,6 +104,14 @@ section {
   margin: 32px 20%;
   padding: 64px 32px;
   background-color: #e9ecef;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.quote > p:first-child {
+
+
+  font-style: italic;
 }
 
 .sign-up {
@@ -106,6 +128,7 @@ section {
 
 .sign-up > * {
   flex: 1;
+  font-size: 25px;
 }
 
 
@@ -164,8 +187,6 @@ button:hover {
 button:active {
   scale: 1.0;
 }
-
-
 
 .color--white {
   color: white;
