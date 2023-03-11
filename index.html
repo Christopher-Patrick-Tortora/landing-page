@@ -8,22 +8,31 @@
   <title>Discover NYC</title>
   <link type="text/css" rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_package_v0.16/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_package_v0.16/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_package_v0.16/favicon-16x16.png">
+  <link rel="manifest" href="./assets/favicon_package_v0.16/site.webmanifest">
+  <link rel="mask-icon" href="./assets/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="./assets/favicon_package_v0.16/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="./assets/favicon_package_v0.16/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
   <!--Header-->
-  <header class="flex background-blue">
+  <header class="flex flex-center background-blue">
     <img src="./assets/buildings.png" alt="">
     <nav class="">
-      <ul class="flex links">
+      <ul class="flex header__links">
         <li>
-          <a href="#about" class="link">About</a>
+          <a href="#about" class="link color--white">About</a>
         </li>
         <li>
-          <a href="#attractions" class="link">Attractions</a>
+          <a href="#attractions" class="link color--white">Attractions</a>
         </li>
         <li>
-          <a href="#sign-up" class="link">Sign up</a>
+          <a href="#sign-up" class="link color--white">Sign up</a>
         </li>
       </ul>
     </nav>
@@ -32,11 +41,11 @@
     <!--About-->
     <section class="flex about background-blue" id="about">
       <div class="flex-column about__info">
-        <h1>The Big Apple be Bussin'!</h1>
-        <p>This website contains some info about the city that never sleeps. 
+        <h1>The Big Apple be Bussin!</h1>
+        <p>Dead ass come thru' and visit the city that never sleeps.
           <i>
             <b>
-              HEY! I'M WALKIN' HERE! 
+              HEY! I'M WALKIN' HERE!
               I'M WALKIN' HERE!
             </b>
           </i>
@@ -45,7 +54,8 @@
       </div>
       <div class="about__image">
         <img src="./assets/skyline.jpg" alt="New York City Sunset Skyline">
-        <p class="text-end">By: <a href="https://unsplash.com/@jonathanroger">Jonathan Roger</a></p>
+        <p class="flex-end p--remove--margin">By: <a href="https://unsplash.com/@jonathanroger"
+            class="color--white">Jonathan Roger</a></p>
       </div>
     </section>
     <!--Attractions-->
@@ -54,23 +64,23 @@
       <div class="flex attractions__container">
         <div class="attraction">
           <img src="./assets/liberty.jpg" alt="Statue of Liberty">
-          <p>Statue of Liberty</p>
-          <p class="text-end">By: <a href="https://unsplash.com/@aviwerde">Avi Werde</a></p>
+          <p class="p--remove--margin">Statue of Liberty</p>
+          <p class="flex-end p--remove--margin">By: <a href="https://unsplash.com/@aviwerde">Avi Werde</a></p>
         </div>
         <div class="attraction">
           <img src="./assets/park.jpg" alt="Aerial Central Park">
-          <p>Central Park</p>
-          <p class="text-end">By: <a href="https://unsplash.com/@eejermaine">Jermaine Ee</a></p>
+          <p class="p--remove--margin">Central Park</p>
+          <p class="flex-end p--remove--margin">By: <a href="https://unsplash.com/@eejermaine">Jermaine Ee</a></p>
         </div>
         <div class="attraction">
           <img src="./assets/bridge.jpg" alt="Brooklyn Bridge">
-          <p>Brooklyn Bridge</p>
-          <p class="text-end">By: <a href="https://unsplash.com/@raddfilms">Redd F</a></p>
+          <p class="p--remove--margin">Brooklyn Bridge</p>
+          <p class="flex-end p--remove--margin">By: <a href="https://unsplash.com/@raddfilms">Redd F</a></p>
         </div>
         <div class="attraction">
           <img src="./assets/square.jpg" alt="Times Square">
-          <p>Times Square</p>
-          <p class="text-end">By: <a href="https://unsplash.com/@don_andy">Andreas Kruck</a></p>
+          <p class="p--remove--margin">Times Square</p>
+          <p class="flex-end p--remove--margin">By: <a href="https://unsplash.com/@don_andy">Andreas Kruck</a></p>
         </div>
       </div>
     </section>
@@ -86,15 +96,15 @@
           Let's hear it for New York.
         </i>
       </p>
-      <b class="text-end">- Alicia Keys</b>
+      <b class="flex-end">- Alicia Keys</b>
     </section>
     <!--Sign up-->
     <section class="flex sign-up" id="sign-up">
       <div>
         <b>You could be <i>walkin' here </i> too!</b>
-        <p>Sign up for more information on New York City attractions with this button right hurr.</p>
+        <p>Sign up for more facts on New York City attractions with this button right hurr. Bet!</p>
       </div>
-      <div class="text-end">
+      <div class="flex-end">
         <button class="sign-up__button">Sign up</button>
       </div>
       </div>
