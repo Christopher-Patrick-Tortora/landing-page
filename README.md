@@ -15,6 +15,7 @@ Skills Practiced:
         OOCSS and BEM conventions
 
 Future Plans:
+
     Mobile first style
     Add new CSS skills
 
