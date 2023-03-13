@@ -12,6 +12,7 @@ Skills Practiced:
         Transitions
         ID linking
         Media
+        OOCSS and BEM conventions
 
 Future Plans:
     Mobile first style
